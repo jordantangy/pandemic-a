@@ -1,8 +1,5 @@
 
-#include <iostream>
-#include <list>
-using namespace std;
-
+#pragma once
 namespace pandemic{
 
     enum class City{

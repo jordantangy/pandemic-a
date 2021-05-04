@@ -4,20 +4,20 @@
 #include <map>
 #include <array>
 #include <list>
-
+using namespace std;
 
 namespace pandemic{
 
     class Board{
-        map<City,list<City>>  cities_net;
+        map<City,int>  cities_net;
 
 
 
     public :
-    Board();
     int& operator[](City city);
-    friend ostream& operator<<(ostream& os,Board& b);
+    friend ostream& operator<<(ostream& os,const Board& b);
     bool is_clean();
+    void remove_cures();
 
     };
 }

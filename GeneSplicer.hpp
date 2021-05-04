@@ -1,7 +1,7 @@
 
 
 #include "Board.hpp"
-
+#include "Player.hpp"
 namespace pandemic{
     class GeneSplicer : public Player{
 
