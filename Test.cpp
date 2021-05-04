@@ -39,7 +39,7 @@ TEST_CASE("Board operator[] and isclean function"){
 
 }
 
-TEST_CASE(""){
+TEST_CASE("functions"){
     Board board;
     Medic m(board,City::Bangkok);
     Researcher res(board,City::LosAngeles);
